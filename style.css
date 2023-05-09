@@ -43,3 +43,22 @@
     border-radius: 100%;
     transform: scale(2);
 }
+.box2{
+ position: relative;
+ left: 180px;
+    top: 13px;
+ bottom: 0;
+ height: 50px;
+ width: 50px;
+ background-color: navy;
+ transition-delay: 3s;
+ transition-timing-function: ease-in-out;
+ transition-duration: 2s;
+ border: 5px dotted mediumvioletred;   
+}
+.box2:hover{
+transform: rotate(360deg);
+background-color: tomato;
+border-radius: 100%;
+transform: scale(2);
+} 
